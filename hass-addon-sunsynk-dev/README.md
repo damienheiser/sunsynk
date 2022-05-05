@@ -1,4 +1,4 @@
-# Sunsynk Inverter Add-on
+# Sunsynk Inverter Add-on DEV VERSION (DH)
 
 An add-on to receive Sunsynk Inverter Values and push them to Home Assistant through MQTT.
 
