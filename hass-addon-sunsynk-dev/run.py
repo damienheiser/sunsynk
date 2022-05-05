@@ -228,9 +228,9 @@ async def main(loop: AbstractEventLoop) -> None:  # noqa
 
     log_bold(f"Inverter serial number '{SERIAL.value}'")
 
-    if OPT.sunsynk_id != SERIAL.value and not OPT.sunsynk_id.startswith("_"):
-        log_bold("SUNSYNK_ID should be set to the serial number of your Inverter!")
-        return
+    #if OPT.sunsynk_id != SERIAL.value and not OPT.sunsynk_id.startswith("_"):
+    #    log_bold("SUNSYNK_ID should be set to the serial number of your Inverter!")
+    #    return
 
     await hass_discover_sensors(str(SERIAL.value))
 
